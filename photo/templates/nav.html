@@ -12,15 +12,16 @@
 
 <body>
 
-    <div id="container" style="display: flex; flex-direction: row; justify-content: flex-start; 
-    position: fixed;top: 0;width: 100%; ">
+    <div id="container" style="display: flex; justify-content: space-between; position: relative;top: 0;width: 95%;
+     align-items: flex-end; ">
 
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <a href="/">Home</a>
+            <a href="/acrylic">Acrylic</a>
+            <a href="/digital">Digital</a>
+            <a href="/about">About Me</a>
+            <a href="/contact">Contact</a>
         </div>
         
         <div id="main">
@@ -28,11 +29,12 @@
         </div>
 
         <div>
-            <h1 style="font-size: 42px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ value }} </h1>
+            <h1 style="font-size: 42px;"> {{ value }} </h1>
         </div>
 
-
+        <div>
+            
+        </div>
 
     </div>
 

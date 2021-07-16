@@ -57,12 +57,12 @@ def create_app():
     app.register_blueprint(home)
 
     # # # My gallery Blueprint
-    # from photo.gallery import bp as gallery
-    # app.register_blueprint(gallery)
+    from photo.gallery import bp as gallery
+    app.register_blueprint(gallery)
 
     # # # # owner Blueprint
-    # from photo.owner import bp as owner
-    # app.register_blueprint(owner)
+    from photo.owner import bp as owner
+    app.register_blueprint(owner)
     
 
     return app
